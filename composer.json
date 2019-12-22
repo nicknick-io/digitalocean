@@ -1,0 +1,20 @@
+{
+    "name": "nicknick-io/digitalocean-v2",
+    "description": "Fluent API for the Digital Ocean V2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nickolaj Madsen",
+            "email": "nvm@nicknick.io"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "NickNickIO": "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "kitetail/zttp": "^0.4.0"
+    }
+}
