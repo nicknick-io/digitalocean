@@ -38,7 +38,7 @@ $domains = $digitalocean->domain->all();
 $domain = $digitalocean->domain->get('foo.dk');
 
 // Return the created domain called bar.dk
-$domain = $digitalocean->domain->create('baz.dk');
+$domain = $digitalocean->domain->create('bar.dk');
 
 // Delete the domain called baz.dk
 $digitalocean->domain->delete('baz.dk');
