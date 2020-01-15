@@ -19,7 +19,8 @@
         SizeRequest,
         SnapshotRequest,
         SshKeyRequest,
-        VolumeRequest
+        VolumeRequest,
+        BalanceRequest
     };
 
     class Digitalocean
@@ -121,6 +122,11 @@
         public $ssh_key;
 
         /**
+         * @var BalanceRequest
+         */
+        public $balance;
+
+        /**
          * Digitalocean constructor.
          * @param string $key
          */
@@ -134,6 +140,7 @@
             $this->volume = new VolumeRequest($this->connection);
             $this->domain = new DomainRequest($this->connection);
             $this->region = new RegionRequest($this->connection);
+            $this->balance = new BalanceRequest($this->connection);
             $this->ssh_key = new SshKeyRequest($this->connection);
             $this->project = new ProjectRequest($this->connection);
             $this->account = new AccountRequest($this->connection);
