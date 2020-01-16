@@ -1,5 +1,4 @@
 ![HEADER](https://camo.githubusercontent.com/839ca2875645f1719f4974e36c24859b2c08cdd3/68747470733a2f2f692e6962622e636f2f474637796e62502f6469676974616c6f6365616e2d76322e706e67)
-
 This is a wrapper for the [Digitalocean API](https://developers.digitalocean.com/v2/) ([Issues](https://github.com/digitalocean/api-v2/issues) / [Changelog](https://github.com/digitalocean/api-v2/issues))
 
 ### Installation
